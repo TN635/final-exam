@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #358c3b; 
+}
+
+
+h1 {
+    background-color: #358c3b;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: left;
+    margin: 0;
+}
+
+
+.portfolio-container {
+    width: 45%;
+    margin: 20px auto;
+    background-color: green;
+    border: 2px solid #358c3b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+table {
+    width: 100%;
+    background-color: #eaf5e3; 
+    border-collapse: collapse;
+    border: 2px solid #358c3b; 
+}
+
+table td, table th {
+    border: 1px solid #358c3b; 
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+.header-cell {
+    font-weight: bold;
+    background-color: #cce5cc; 
+    text-align: center;
+}
+
+.image-cell {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-cell img {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black; 
+    padding: 10px; 
+    background-color: #8cd45f; 
+}
+
+.links-cell {
+    padding: 20px;
+}
+
+.links-cell ol {
+    padding-left: 20px;
+}
+
+.links-cell ol li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.links-cell ol li a:hover {
+    color:  darkturquoise;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+    color: aliceblue;
+}
